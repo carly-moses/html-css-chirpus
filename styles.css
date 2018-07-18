@@ -1,0 +1,125 @@
+body {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+    padding-left:10px;
+    margin: auto 20px;
+}
+
+a {
+    display: block;
+    color: #69696a; 
+    text-decoration: none; 
+    padding: 3px;
+}
+
+main {
+    display: flex;
+}
+
+p {
+    border-left: 2px solid #696969;
+    padding: 0px 20px; 
+    color: #69696a; 
+}
+
+button {
+    background-color: #000;
+    color: white; 
+    border-radius: 30px; 
+    font-size: 15px; 
+    padding: 10px 35px; 
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (orientation:landscape) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    a {
+        padding: 18px;
+    }
+
+    main {
+        margin-top: 70px;
+    }
+
+    button {
+        height: 35px;
+        width: 140px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    p{
+        width: 60%;
+    }
+
+    .scroll {
+        position:absolute;
+        left: 40%;
+        margin-top: 250px;
+    }
+
+    .circles {
+        width: 50%; 
+        position: relative; 
+    }
+
+    .pinkdot {
+        height: 275px;
+        width: 275px;
+        border-radius: 50%;
+        background-color: rgba(247, 136, 167, 0.6);
+        position: absolute;
+        top: 55px;
+        left: -205px;
+    }
+
+    .purpledot {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: rgba(207, 130, 213, 0.6);
+        position: absolute;
+        top: 100px;
+        left: 15px;
+    }
+
+    .orangedot {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: rgba(247, 193, 162, 0.7);
+        position: absolute;
+        top: 200px;
+        left: -30px;    
+    }
+}
+@media only screen and (min-width: 1200px){
+    .pinkdot {
+        height: 300px;
+        width: 300px;
+        top: 40px;
+        left: -120px;
+    }
+
+    .purpledot {
+        height: 175px;
+        width: 175px;
+        top: 75px;
+        left: 130px;
+    }
+
+    .orangedot {
+        height: 250px;
+        width: 250px;
+        top: 200px;
+        left: 70px;
+    }
+}
